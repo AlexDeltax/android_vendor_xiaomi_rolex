@@ -56,14 +56,14 @@
 <!ATTLIST VideoEncoderCap minFrameRate CDATA #REQUIRED>
 <!ATTLIST VideoEncoderCap maxFrameRate CDATA #REQUIRED>
 <!ELEMENT AudioEncoderCap EMPTY>
-<!ATTLIST AudioEncoderCap name (amrnb|amrwb|aac|wma) #REQUIRED>
+<!ATTLIST AudioEncoderCap name (amrnb|amrwb|aac|wma|lpcm) #REQUIRED>
 <!ATTLIST AudioEncoderCap enabled (true|false) #REQUIRED>
 <!ATTLIST AudioEncoderCap minBitRate CDATA #REQUIRED>
 <!ATTLIST AudioEncoderCap maxBitRate CDATA #REQUIRED>
 <!ATTLIST AudioEncoderCap minSampleRate CDATA #REQUIRED>
 <!ATTLIST AudioEncoderCap maxSampleRate CDATA #REQUIRED>
-<!ATTLIST AudioEncoderCap minChannels (1|2) #REQUIRED>
-<!ATTLIST AudioEncoderCap maxChannels (1|2) #REQUIRED>
+<!ATTLIST AudioEncoderCap minChannels (1|2|6) #REQUIRED>
+<!ATTLIST AudioEncoderCap maxChannels (1|2|6) #REQUIRED>
 <!ELEMENT VideoDecoderCap EMPTY>
 <!ATTLIST VideoDecoderCap name (wmv) #REQUIRED>
 <!ATTLIST VideoDecoderCap enabled (true|false) #REQUIRED>
@@ -388,8 +388,8 @@
         for TEST applications. For other applications, we do
         not perform any checks at all.
     -->
-    <VideoDecoderCap name="wmv" enabled="false"/>
-    <AudioDecoderCap name="wma" enabled="false"/>
+    <VideoDecoderCap name="wmv" enabled="true"/>
+    <AudioDecoderCap name="wma" enabled="true"/>
 
     <!--
         The VideoEditor Capability configuration:
