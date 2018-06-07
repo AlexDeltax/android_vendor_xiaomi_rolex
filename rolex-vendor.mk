@@ -2419,6 +2419,7 @@ PRODUCT_PACKAGES += \
     ims \
     imssettings \
     TimeService \
+    audiosphere \
     qcrilmsgtunnel \
     QtiTelephonyServicelibrary \
     qcrilhook \
