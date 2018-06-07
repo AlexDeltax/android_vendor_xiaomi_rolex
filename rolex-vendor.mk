@@ -2185,26 +2185,26 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.imsrtpservice@1.0_vendor.so \
-    vendor/xiaomi/rolex/proprietary/lib/libdpmctmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpmctmgr.so \
-    vendor/xiaomi/rolex/proprietary/lib/libdpmfdmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpmfdmgr.so \
-    vendor/xiaomi/rolex/proprietary/lib/libdpmframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpmframework.so \
-    vendor/xiaomi/rolex/proprietary/lib/libdpmnsrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpmnsrm.so \
-    vendor/xiaomi/rolex/proprietary/lib/libdpmtcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpmtcm.so \
-    vendor/xiaomi/rolex/proprietary/lib/vendor.qti.hardware.data.latency@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.latency@1.0.so \
-    vendor/xiaomi/rolex/proprietary/lib/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.iop@2.0.so \
-    vendor/xiaomi/rolex/proprietary/lib/vendor.qti.hardware.qteeconnector@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qteeconnector@1.0.so \
-    vendor/xiaomi/rolex/proprietary/lib64/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.ant@1.0.so \
-    vendor/xiaomi/rolex/proprietary/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so \
-    vendor/xiaomi/rolex/proprietary/lib64/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.dpm.api@1.0.so \
-    vendor/xiaomi/rolex/proprietary/lib64/com.qualcomm.qti.imscmservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@1.1.so \
-    vendor/xiaomi/rolex/proprietary/lib64/libdpmctmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdpmctmgr.so \
-    vendor/xiaomi/rolex/proprietary/lib64/libdpmfdmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdpmfdmgr.so \
-    vendor/xiaomi/rolex/proprietary/lib64/libdpmframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdpmframework.so \
-    vendor/xiaomi/rolex/proprietary/lib64/libdpmnsrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdpmnsrm.so \
-    vendor/xiaomi/rolex/proprietary/lib64/libdpmtcm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdpmtcm.so \
-    vendor/xiaomi/rolex/proprietary/lib64/vendor.qti.hardware.data.latency@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.latency@1.0.so \
-    vendor/xiaomi/rolex/proprietary/lib64/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.iop@2.0.so \
-    vendor/xiaomi/rolex/proprietary/lib64/vendor.qti.hardware.qteeconnector@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qteeconnector@1.0.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libdpmctmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpmctmgr.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libdpmfdmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpmfdmgr.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libdpmframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpmframework.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libdpmnsrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpmnsrm.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libdpmtcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpmtcm.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/vendor.qti.hardware.data.latency@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.latency@1.0.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.iop@2.0.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/vendor.qti.hardware.qteeconnector@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qteeconnector@1.0.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib64/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.ant@1.0.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.dpm.api@1.0.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@1.1.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib64/libdpmctmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdpmctmgr.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib64/libdpmfdmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdpmfdmgr.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib64/libdpmframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdpmframework.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib64/libdpmnsrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdpmnsrm.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib64/libdpmtcm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdpmtcm.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib64/vendor.qti.hardware.data.latency@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.latency@1.0.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib64/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.iop@2.0.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib64/com.quicinc.cne.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.quicinc.cne.api@1.0.so \
