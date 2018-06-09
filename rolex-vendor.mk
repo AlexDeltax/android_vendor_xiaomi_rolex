@@ -2194,15 +2194,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/lib/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.iop@2.0.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/vendor.qti.hardware.qteeconnector@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libpower.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpower.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/android.hidl.base@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hidl.base@1.0.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libhidltransport.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhidltransport.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libhwbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwbinder.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libhidlbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhidlbase.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libvolumelistener.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib64/android.hidl.base@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hidl.base@1.0.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib64/libhidltransport.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhidltransport.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib64/libhwbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwbinder.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib64/libhidlbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhidlbase.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib64/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libvolumelistener.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib64/libpower.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpower.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib64/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.ant@1.0.so \
@@ -2441,29 +2433,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libOmxSwVdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxSwVdec.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libOmxSwVencMpeg4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxSwVencMpeg4.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libOmxVpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVpp.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbinder.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmm-omxcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-omxcore.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libqdMetaData.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdMetaData.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libgui.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgui.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libc2dcolorconvert.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2dcolorconvert.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libbacktrace.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbacktrace.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libGLESv2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGLESv2.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libEGL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libEGL.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libsync.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsync.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libnativeloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnativeloader.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libswvdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswvdec.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib64/libOmxVpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxVpp.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib64/libbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbinder.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib64/libmm-omxcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-omxcore.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib64/libqdMetaData.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdMetaData.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib64/libgui.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgui.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib64/libc2dcolorconvert.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2dcolorconvert.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib64/libbacktrace.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbacktrace.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib64/libGLESv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGLESv2.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib64/libEGL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libEGL.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib64/libsync.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsync.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib64/libnativeloader.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnativeloader.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib64/libswvdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswvdec.so
+
 
 PRODUCT_PACKAGES += \
     libgpustats \
