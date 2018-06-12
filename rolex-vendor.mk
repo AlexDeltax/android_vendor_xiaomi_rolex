@@ -142,11 +142,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/xiaomi/rolex/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/xiaomi/rolex/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
-    vendor/xiaomi/rolex/proprietary/vendor/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qcrilhook.xml \
-    vendor/xiaomi/rolex/proprietary/vendor/etc/permissions/qti-vzw-ims-internal.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti-vzw-ims-internal.xml \
+    vendor/xiaomi/rolex/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/xiaomi/rolex/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/xiaomi/rolex/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml \
     vendor/xiaomi/rolex/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
-    vendor/xiaomi/rolex/proprietary/vendor/etc/permissions/telephonyservice.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/telephonyservice.xml \
+    vendor/xiaomi/rolex/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/xiaomi/rolex/proprietary/framework/audiosphere.jar:system/framework/audiosphere.jar \
     vendor/xiaomi/rolex/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/xiaomi/rolex/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
@@ -155,6 +155,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/xiaomi/rolex/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/xiaomi/rolex/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.imscmservice@1.0.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/lib-imscamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imscamera.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libdiag_system.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag_system.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libimscamera_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimscamera_jni.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libimsmedia_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimsmedia_jni.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/lib-imsvideocodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsvideocodec.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/lib-imsvtextutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsvtextutils.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/lib-imsvtutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsvtutils.so \
@@ -2451,14 +2455,14 @@ PRODUCT_PACKAGES += \
     libts_face_beautify_hal \
     libloc_api_v02 \
     libtime_genoff \
-    CNEService \
-    com.qualcomm.location \
     QtiTelephonyService \
     ims \
     imssettings \
-    TimeService \
+    CNEService \
+    com.qualcomm.location \
     audiosphere \
     qcrilmsgtunnel \
+    TimeService \
     QtiTelephonyServicelibrary \
     qcrilhook \
     qti-telephony-common \
