@@ -2407,6 +2407,18 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/lib64/libc2dcolorconvert.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2dcolorconvert.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib64/libswvdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswvdec.so
 
+#blobs from ASUS
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/hw/power.qcom.so:$(TARGET_COPY_OUT_VENDOR)lib/hw/power.qcom.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/hw/vulkan.msm8917.so:$(TARGET_COPY_OUT_VENDOR)lib/hw/vulkan.msm8917.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libllvm-qgl.msm8917.so:$(TARGET_COPY_OUT_VENDOR)lib/libllvm-qgl.msm8917.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libllvm-qgl.so:$(TARGET_COPY_OUT_VENDOR)lib/libllvm-qgl.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib64/hw/power.qcom.so:$(TARGET_COPY_OUT_VENDOR)lib64/hw/power.qcom.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib64/hw/vulkan.msm8917.so:$(TARGET_COPY_OUT_VENDOR)lib64/hw/vulkan.msm8917.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib64/libllvm-qgl.msm8917.so:$(TARGET_COPY_OUT_VENDOR)lib64/libllvm-qgl.msm8917.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib64/libllvm-qgl.so:$(TARGET_COPY_OUT_VENDOR)lib64/libllvm-qgl.so
+
+
 PRODUCT_PACKAGES += \
     vendor.display.color@1.0 \
     vendor.qti.hardware.iop@1.0 \
