@@ -146,6 +146,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml \
     vendor/xiaomi/rolex/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/xiaomi/rolex/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
+    vendor/xiaomi/rolex/proprietary/etc/permissions/android.hardware.opengles.aep.xml:system/etc/permissions/android.hardware.opengles.aep.xml \
+    vendor/xiaomi/rolex/proprietary/etc/permissions/android.hardware.vulkan.compute-0.xml:system/etc/permissions/android.hardware.vulkan.compute-0.xml \
+    vendor/xiaomi/rolex/proprietary/etc/permissions/android.hardware.vulkan.compute.xml:system/etc/permissions/android.hardware.vulkan.compute.xml \
+    vendor/xiaomi/rolex/proprietary/etc/permissions/android.hardware.vulkan.level-0.xml:system/etc/permissions/android.hardware.vulkan.level-0.xml \
+    vendor/xiaomi/rolex/proprietary/etc/permissions/android.hardware.vulkan.level.xml:system/etc/permissions/android.hardware.vulkan.level.xml \
+    vendor/xiaomi/rolex/proprietary/etc/permissions/android.hardware.vulkan.version-1_1.xml:system/etc/permissions/android.hardware.vulkan.version-1_1.xml \
+    vendor/xiaomi/rolex/proprietary/etc/permissions/android.hardware.vulkan.version.xml:system/etc/permissions/android.hardware.vulkan.version.xml \
     vendor/xiaomi/rolex/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/xiaomi/rolex/proprietary/framework/audiosphere.jar:system/framework/audiosphere.jar \
     vendor/xiaomi/rolex/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
@@ -2144,6 +2151,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libwqe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwqe.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxml.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/hw/vulkan.msm.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.msm.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libc2d30-a4xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30-a4xx.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libc2d30-a5xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30-a5xx.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libapps_mem_heap.so \
@@ -2409,6 +2419,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0_vendor.so \
     vendor/xiaomi/rolex/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db \
     vendor/xiaomi/rolex/proprietary/vendor/lib64/lib-siputility.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-siputility.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib64/hw/vulkan.msm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.msm.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib64/libc2d30-a4xx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30-a4xx.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib64/libc2d30-a5xx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30-a5xx.so
 
 #blobs for Gcam with dependencies
 PRODUCT_COPY_FILES += \
