@@ -2458,6 +2458,7 @@ PRODUCT_PACKAGES += \
     com.qualcomm.location \
     qcrilmsgtunnel \
     TimeService \
+    ColorControl \
     qdcm_calib_data_hx8394F_HD720p_video_BOE_c3a \
     qdcm_calib_data_ili9881c_HD720p_video_Ebbg_c3a \
     qdcm_calib_data_nt35521s_HD720p_video_EBBG_c3a
